@@ -34,3 +34,6 @@ Diante disso, você deve desenvolver um projeto java, com os seguintes requisito
   Imprimir o total dos salários dos funcionários.
   
   Imprimir quantos salários mínimos ganha cada funcionário, considerando que o salário mínimo é R$1212.00.
+  
+  ![image](https://s3.amazonaws.com/gupy5/production/companies/17494/images/custom-test-102943-question-eee278f5-a195-4265-956e-dcfcef31bafb.png)
+
