@@ -3,6 +3,7 @@ package com.iniflex.test.controller;
 
 import com.iniflex.test.model.Funcionario;
 
+import java.io.PrintStream;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ import java.util.Map;
 
 public class FuncionarioController {
 
+    
     private final List<Funcionario> funcionarios;
 
     public FuncionarioController() {
@@ -46,6 +48,7 @@ public class FuncionarioController {
         for (Funcionario f : funcionarios) {
             BigDecimal aumento = f.getSalario().multiply(BigDecimal.valueOf(percentual / 100));
             f.setSalario(f.getSalario().add(aumento));
+        
         }
     }
 
